@@ -49,7 +49,7 @@ app.use(
    response_type: "code id_token",
    scope: "openid profile email read:reports",
    audience: "https://expenses-api",
-         locale: "es",
+   ui_locales: "es",
   },
    })
 );
